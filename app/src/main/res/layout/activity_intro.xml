@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroActivity"
+    android:background="@color/base"
+    android:orientation="vertical">
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="70dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/intro" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Atur janji dengan Dokter bisa lebih mudah"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:fontFamily="@font/inter_extrabold"
+            android:paddingTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Dapatkan layanan untuk mengatur jadwal pemeriksaan dengan mudah dan nyaman"
+            android:textSize="15dp"
+            android:fontFamily="@font/inter_medium"
+            android:paddingTop="10dp"
+            android:layout_marginHorizontal="13dp"/>
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btn_start"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_btn"
+            android:fontFamily="@font/inter_bold"
+            android:text="Mulai Buat Janji"
+            android:textAllCaps="false"
+            android:textSize="12dp"/>
+    </LinearLayout>
+
+</LinearLayout>

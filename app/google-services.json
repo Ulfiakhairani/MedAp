@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "464161232766",
+    "project_id": "medap-app",
+    "storage_bucket": "medap-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464161232766:android:c0131e7d7609664175c52f",
+        "android_client_info": {
+          "package_name": "com.ulfia.medapapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464161232766-35t70ljet9qniihapglugf7liacgu1hj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ulfia.medapapp",
+            "certificate_hash": "a01aa18586da36629d9abac23ed73ec2af216240"
+          }
+        },
+        {
+          "client_id": "464161232766-dc5ku8s4hm8kgc312h6rod4qmtbnhti6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWm6pjNC0_Jo9rVDCDyEVHeWuSo1Y6hok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464161232766-dc5ku8s4hm8kgc312h6rod4qmtbnhti6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

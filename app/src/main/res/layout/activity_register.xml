@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/register" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/linear_shape"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingHorizontal="40dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="@font/inter_extrabold"
+            android:text="Daftar"
+            android:textColor="@color/black"
+            android:textSize="34dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="@font/inter_regular"
+            android:text="Buat akun untuk lanjut ke aplikasi"
+            android:textColor="@color/tulisan_tipis"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/inter_regular"
+            android:background="@drawable/textinput"
+            android:drawableLeft="@drawable/user_"
+            android:drawablePadding="10dp"
+            android:hint="Masukkan Nama Lengkap"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:inputType="textPersonName"
+            />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/inter_regular"
+            android:background="@drawable/textinput"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="10dp"
+            android:hint="Masukkan Email"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:inputType="textEmailAddress"/>
+        <EditText
+            android:id="@+id/ponsel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/inter_regular"
+            android:background="@drawable/textinput"
+            android:drawableLeft="@drawable/phone_"
+            android:drawablePadding="10dp"
+            android:hint="Masukkan Nomor Ponsel"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:inputType="phone"
+            />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/inter_regular"
+            android:background="@drawable/textinput"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="10dp"
+            android:hint="Masukkan Password"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:inputType="textPassword"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/RegisterBtn"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:text="Daftar"
+            android:fontFamily="@font/inter_bold"
+            android:background="@drawable/custom_btn"
+            android:textAllCaps="false"
+            android:textSize="12dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_regular"
+                android:text="Sudah memiliki akun?"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+
+            <TextView
+                android:id="@+id/loginNowBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Masuk"
+                android:textColor="@color/biru"
+                android:textSize="11dp"
+                android:fontFamily="@font/inter_regular"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
