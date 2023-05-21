@@ -20,6 +20,24 @@ Halaman Beranda
 
 ![Beranda](https://github.com/Ulfiakhairani/MedAp/assets/72622275/a32d4036-d8fa-45f8-b05f-c440928851e4)
 
+Halaman List Dokter
+
+![List Dokter](https://github.com/Ulfiakhairani/MedAp/assets/72622275/1a8a4447-3d88-4aef-a461-1420be2f05ca)
+
+Halaman Deskripsi Dokter
+
+![Deskripsi Dokter](https://github.com/Ulfiakhairani/MedAp/assets/72622275/101c1920-5707-4108-a6b5-9338aef3560d)
+
+Halaman Buat Janji
+
+![Buat Janji (1)](https://github.com/Ulfiakhairani/MedAp/assets/72622275/cdd47564-f314-4440-b2aa-e054eb53d864)
+![Buat Janji (2)](https://github.com/Ulfiakhairani/MedAp/assets/72622275/dde35e76-64f3-410a-b470-088bd16556e7)
+
+Halaman Riwayat
+
+![Riwayat](https://github.com/Ulfiakhairani/MedAp/assets/72622275/3f99586b-843e-4128-849d-b439183a43b2)
+
+
 Halaman Profil
 
 ![Profile](https://github.com/Ulfiakhairani/MedAp/assets/72622275/515b0eb1-b36c-4163-9bad-b9f2011a2579)
